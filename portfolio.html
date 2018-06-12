@@ -6,28 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
-        <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+        <link rel="shortcut icon" type="image/jpg" href="./images/rsLogo.png">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
         <script src="main.js"></script>
-
 </head>
 
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Richard Sanchez</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
+    <!--header using NavBar from Bootstrap-->
+    <nav class="navbar">
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4";>
+                <h1 class="name">Richard Sanchez</h1> 
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4";>
+                <ul class="navbarNav">
+                    <li><a id="inT" href="index.html">About</a></li>
+                    <li><a id="pfT" href="portfolio.html">Portfolio</a></li>
+                    <li><a id="coT" href="contact.html">Contact</a></li>
+                </ul>
             </div>
         </div>
     </nav>
+
 
     <div class="wrapper">
 
@@ -53,6 +55,9 @@
                             <img id="profile" src="images/bcbbccc6184530f2dbcead7551f9b4de.png" alt="Coding Boot Camp height" height="200px" width="250px">
                             <h3>Coding Boot Camp</h3>
                         </div>
+                        <div class="col-lg-4" style="background-color: #fff">
+                        <!--Insert picture and label when needed-->  
+                        </div>
                     </div>
                 </div>
                 <!--Portfolio picture for Escape Room and Ideas-->
@@ -66,6 +71,9 @@
                             <img id="profile" src="images/escape-room-team-building.jpg" alt="Coding Boot Camp height" height="200px" width="250px">
                             <h3>Ideas</h3>
                         </div>
+                        <div class="col-lg-4" style="background-color: #fff">
+                        <!--Insert picture and label when needed-->  
+                        </div>
                     </div>
                 </div>
                 <!--Portfolio picture for D&D RPG Game-->
@@ -74,6 +82,12 @@
                         <div class="col-lg-4" style="background-color:#fff;">
                             <img id="profile" src="images/DQDkwj7XkAAcKBG.jpg" alt="ESO MMO Game" height="200px" width="250px">
                             <h3>D&D RPG</h3>
+                        </div>
+                        <div class="col-lg-4" style="background-color: #fff">
+                        <!--Insert picture and label when needed-->  
+                        </div>
+                        <div class="col-lg-4" style="background-color: #fff">
+                        <!--Insert picture and label when needed-->  
                         </div>
                     </div>
                 </div>
