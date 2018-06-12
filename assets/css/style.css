@@ -22,7 +22,9 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetoca, sans-serif;  
 }
 .navbar {
-    padding: 0;    
+    padding: 0; 
+    background-color: #fff;
+    border-bottom: 2px solid #cccccc;
 }
 
 .container {
@@ -78,6 +80,8 @@ div.wrapper {
     background-size: cover;
     padding: 60px 0;
     border-top: 2px solid #cccccc;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 /*
