@@ -92,6 +92,30 @@ h2 {
 
 /*
 =======================================================
+Portfolio.html
+=======================================================
+*/
+
+#profile {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    width: 250px;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    bottom: 25px;
+    position: absolute;
+}
+
+/*
+=======================================================
 Footer
 =======================================================
 */
